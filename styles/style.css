@@ -1,32 +1,52 @@
 /*Reset styles */
 @import "reset.css";
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /*General Layout*/
 .flex-container{
     display: flex;
     flex-direction: column;
-    padding: 0px 200px;
 }
-.flex-container > section{
+    .flex-container > section{
     height: 700px;
     background-color: rgb(151, 151, 151);
-    margin: 10px;
-}
+    }
 /*Header*/
 header{
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
     padding: 5px 200px;
-}
-nav{
-    display: flex;
-}
-nav > section {
-    width: 100%;
-}
-.Links{
-    text-align: right;
-}
-li{
-    list-style: none;
-    display: inline;
-}
+    height: 600px;
+}    
+    /*Navigation*/
+    nav{
+     display: flex;
+    }
+        nav > section {
+            width: 100%;
+        }
+        .Links{
+            text-align: right;
+        }
+            li{
+                list-style: none;
+                display: inline-block;
+                width: 100px;
+            }
+                a{
+                    font-size: 18px;
+                    color: #E5E7EB;
+                    text-decoration: none;      
+                }
+        .Logo{
+            font-size: 24px;
+            color: #F9FAF8;
+        }
+    /*Header main content*/
+    .main-content{
+
+    }
