@@ -55,6 +55,9 @@ header{
         .main-text > div{
             width: 100%;
         }
+            .Head-text, .Sec-text, .btn{
+            margin: 10px;
+            }
             .Head-text{
                 font-size:48px;
                 color: #F9FAF8;
@@ -63,6 +66,13 @@ header{
                 font-size: 18px;
                 color: #E5E7EB;
             }
-            .Head-text, .Sec-text, .btn{
-                margin: 10px;
+            .btn{
+                width: 130px;
+                height: 30px;
+                background-color: #3882F6;
+                color:#F9FAF8;
+                font-size: 15px;
+                border: none;
+                border-radius: 10px;
             }
+            
