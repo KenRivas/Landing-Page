@@ -50,7 +50,7 @@ header{
     .main-text{
         display: flex;
         flex-direction: row;
-        padding: 200px 0px;
+        padding: 150px 0px;
     }
         .main-text > div{
             width: 100%;
@@ -75,4 +75,10 @@ header{
                 border: none;
                 border-radius: 10px;
             }
+        .image{
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        margin-left: 15px;
+        }
             
