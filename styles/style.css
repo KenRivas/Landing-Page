@@ -2,4 +2,11 @@
 
 .flex-container{
     display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.flex-container > section{
+    height: 700px;
+    background-color: rgb(151, 151, 151);
+    margin: 10px;
 }
