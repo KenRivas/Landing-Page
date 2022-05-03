@@ -20,7 +20,7 @@ header{
     flex-direction: column;
     background-color: #1F2937;
     padding: 20px 200px;
-    height: 600px;
+    height: 700px;
 }    
     /*Navigation*/
     nav{
@@ -50,7 +50,7 @@ header{
     .main-text{
         display: flex;
         flex-direction: row;
-        padding: 150px 0px;
+        padding: 200px 0px;
     }
         .main-text > div{
             width: 100%;
