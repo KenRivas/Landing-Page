@@ -19,7 +19,7 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding: 5px 200px;
+    padding: 20px 200px;
     height: 600px;
 }    
     /*Navigation*/
@@ -46,7 +46,23 @@ header{
             font-size: 24px;
             color: #F9FAF8;
         }
-    /*Header main content*/
-    .main-content{
-
+    /*Header main text*/
+    .main-text{
+        display: flex;
+        flex-direction: row;
+        padding: 200px 0px;
     }
+        .main-text > div{
+            width: 100%;
+        }
+            .Head-text{
+                font-size:48px;
+                color: #F9FAF8;
+            }
+            .Sec-text{
+                font-size: 18px;
+                color: #E5E7EB;
+            }
+            .Head-text, .Sec-text, .btn{
+                margin: 10px;
+            }
