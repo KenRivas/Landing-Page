@@ -10,9 +10,7 @@ body{
     display: flex;
     flex-direction: column;
 }
-    .flex-container > section{
-    height: 100vh;
-    }
+    
 /*Header*/
 header{
     box-sizing: border-box;
@@ -20,7 +18,7 @@ header{
     flex-direction: column;
     background-color: #1F2937;
     padding: 20px 200px;
-    height: 100vh;
+    height: 600px;
 }    
     /*Navigation*/
     nav{
@@ -85,6 +83,7 @@ header{
 .first-sect{
     box-sizing: border-box;
     padding: 0px 200px;
+    height: 500px;
 }
 
     .htext{
@@ -112,3 +111,7 @@ header{
             border-radius: 10px;
             
         }
+/*second sect*/
+.second-sect{
+    height: 400px;
+}
