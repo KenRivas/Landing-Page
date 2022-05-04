@@ -82,7 +82,7 @@ header{
 /*First secton*/
 .first-sect{
     box-sizing: border-box;
-    padding: 0px 200px;
+    padding: 0px 180px;
     height: 500px;
 }
 
@@ -91,25 +91,29 @@ header{
         text-align: center;
         color: #1F2937;
         height: 10vh;
-        padding-top: 50px;
-        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
     .imageboxes{
         display: flex;
-        height: 420px;
+        height: 280px;
         padding: 0px 100px;
     }
     .imageboxes > div {
         width: 100%;
-        background-color: lightgray;
-        padding: 10px;
+        padding: 0px 30px;
     }
         .ibox{
-            height: 200px;
-            width: 200px;
-            border: 5px solid blue;
+            height: 160px;
+            width: 160px;
+            border: 5px solid #3882F6;
             border-radius: 10px;
             
+        }
+        .subtext{
+            font-size: 20px;
+            color: #1F2937;
+            margin: 10px;
         }
 /*second sect*/
 .second-sect{
