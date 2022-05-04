@@ -92,19 +92,23 @@ header{
         text-align: center;
         color: #1F2937;
         height: 10vh;
-        background-color: #3882F6;
         padding-top: 50px;
         padding-bottom: 30px;
     }
     .imageboxes{
         display: flex;
+        height: 420px;
+        padding: 0px 100px;
     }
     .imageboxes > div {
         width: 100%;
         background-color: lightgray;
+        padding: 10px;
     }
         .ibox{
-            height: 50px;
-            width: 100%;
-            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            border: 5px solid blue;
+            border-radius: 10px;
+            
         }
