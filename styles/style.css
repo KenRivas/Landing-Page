@@ -117,5 +117,17 @@ header{
         }
 /*second sect*/
 .second-sect{
+    box-sizing: border-box;
     height: 400px;
+    background-color: #E5E7EB;
+}
+/*third section*/
+.third-sect{
+    box-sizing: border-box;
+    height: 400px;
+}
+/*footer*/
+footer{
+    background-color: #1F2937;
+    height: 100px;
 }
