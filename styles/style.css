@@ -11,15 +11,16 @@ body{
     flex-direction: column;
 }
     .flex-container > section{
-    height: 700px;
+    height: 100vh;
     }
 /*Header*/
 header{
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
     padding: 20px 200px;
-    height: 700px;
+    height: 100vh;
 }    
     /*Navigation*/
     nav{
@@ -82,11 +83,28 @@ header{
         }
 /*First secton*/
 .first-sect{
-    padding: 20px 200px;
+    box-sizing: border-box;
+    padding: 0px 200px;
 }
 
-.htext{
-    font-size: 36px;
-    text-align: center;
-    color: #1F2937;
-}
+    .htext{
+        font-size: 36px;
+        text-align: center;
+        color: #1F2937;
+        height: 10vh;
+        background-color: #3882F6;
+        padding-top: 50px;
+        padding-bottom: 30px;
+    }
+    .imageboxes{
+        display: flex;
+    }
+    .imageboxes > div {
+        width: 100%;
+        background-color: lightgray;
+    }
+        .ibox{
+            height: 50px;
+            width: 100%;
+            background-color: aqua;
+        }
