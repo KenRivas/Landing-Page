@@ -81,4 +81,7 @@ header{
         background-color: gray;
         margin-left: 15px;
         }
-            
+/*First secton*/
+.first-sect{
+    display: flex;
+}       
