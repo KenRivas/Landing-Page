@@ -82,18 +82,11 @@ header{
         }
 /*First secton*/
 .first-sect{
-    display: flex;
-    flex-direction: column;
     padding: 20px 200px;
 }
-.first-sect > section{
-    height: 100%;
-}
+
 .htext{
     font-size: 36px;
     text-align: center;
     color: #1F2937;
 }
-    .imageboxes{
-        display: flex;
-    }
