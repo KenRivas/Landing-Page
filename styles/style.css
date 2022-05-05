@@ -137,7 +137,23 @@ header{
 .third-sect{
     box-sizing: border-box;
     height: 400px;
+    padding: 100px 200px;
 }
+    .firstp{
+        font-size: 25px;
+    }
+    .secondp{
+        font-size: 20px;
+    }
+    .btn2{
+        width: 130px;
+        height: 30px;
+        background-color: #3882F6;
+        color:#F9FAF8;
+        font-size: 15px;
+        border: none;
+        border-radius: 10px;
+    }
 /*footer*/
 footer{
     background-color: #1F2937;
