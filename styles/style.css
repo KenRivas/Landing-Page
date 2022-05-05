@@ -121,9 +121,14 @@ header{
     height: 500px;
     background-color: #E5E7EB;
     padding: 100px 350px;
+}
+.second-sect > blockquote{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+.second-sect > p{
+    text-align: right;
 }
 /*third section*/
 .third-sect{
