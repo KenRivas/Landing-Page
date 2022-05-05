@@ -120,7 +120,7 @@ header{
     box-sizing: border-box;
     height: 500px;
     background-color: #E5E7EB;
-    padding: 100px 350px;
+    padding: 150px 350px;
 }
 .second-sect > blockquote{
     font-size: 36px;
@@ -129,6 +129,8 @@ header{
 }
 .second-sect > p{
     text-align: right;
+    color: #1F2937;
+    font-size: 25px;
 }
 /*third section*/
 .third-sect{
