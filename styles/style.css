@@ -181,6 +181,10 @@ header{
     }
 /*footer*/
 footer{
+    box-sizing: border-box;
     background-color: #1F2937;
-    height: 100px;
+    height: 5px;
+    color:#E5E7EB;
+    text-align: center;
+    padding: 60px 0px;
 }
