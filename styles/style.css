@@ -118,8 +118,10 @@ header{
 /*second sect*/
 .second-sect{
     box-sizing: border-box;
-    height: 400px;
+    height: 500px;
     background-color: #E5E7EB;
+    padding: 100px 350px;
+    font-size: 36px;
 }
 /*third section*/
 .third-sect{
