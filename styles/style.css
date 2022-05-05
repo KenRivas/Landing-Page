@@ -139,11 +139,23 @@ header{
     height: 400px;
     padding: 100px 200px;
 }
+    .thirdsectflex{
+        display: flex;
+        flex-direction: row;
+        background-color: #3882F6;
+        height: 100%;
+    }
+    .thirdsectflex > div{
+        width: 100%;
+    }
     .firstp{
         font-size: 25px;
+        color:#F9FAF8;
     }
     .secondp{
         font-size: 20px;
+        color: #F9FAF8;
+        opacity: 70%;
     }
     .btn2{
         width: 130px;
@@ -151,7 +163,7 @@ header{
         background-color: #3882F6;
         color:#F9FAF8;
         font-size: 15px;
-        border: none;
+        border: 3px solid white;
         border-radius: 10px;
     }
 /*footer*/
