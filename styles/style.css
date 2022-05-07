@@ -107,10 +107,13 @@ header{
     }
         .ibox{
             height: 160px;
-            width: 160px;
-            border: 5px solid #3882F6;
+            width: 160px; 
+        }
+        .ibox > img {
+            max-width:100%;
+            height: 100%;
             border-radius: 10px;
-            
+           
         }
         .subtext{
             font-size: 20px;
