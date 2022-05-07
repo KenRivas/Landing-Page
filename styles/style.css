@@ -130,9 +130,9 @@ header{
 /*second sect*/
 .second-sect{
     box-sizing: border-box;
-    height: 500px;
+    height: 300px;
     background-color: #E5E7EB;
-    padding: 150px 350px;
+    padding: 100px 350px;
 }
     .second-sect > blockquote{
         font-size: 36px;
